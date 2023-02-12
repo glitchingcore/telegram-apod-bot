@@ -1,0 +1,6 @@
+# (required) Get it from @BotFather
+BOT_TOKEN=1234567890:abcdefghijklmnopqrstuvwxyz
+# (required) Get it from https://api.nasa.gov/
+NASA_API_TOKEN=1234567890abcdefghijklmnopqrstuvwxyz
+# (required) Your Telegram channel username
+CHANNEL_USERNAME=@my_channel_username

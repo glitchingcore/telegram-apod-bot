@@ -1,0 +1,3 @@
+python-dotenv==0.21.0
+aiohttp==3.8.3
+Nasa.py @ git+https://github.com/Snipy7374/nasa.py.git@2d0a72a2a007b2e60261533ab25fe139254d7a62
