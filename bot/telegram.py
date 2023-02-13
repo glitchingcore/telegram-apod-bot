@@ -9,7 +9,6 @@ def send_photo(channel_username: str, photo: bytes, caption: str, parse_mode: st
         raise ValueError("Invalid argument value. parse_mode can have a value of 'HTML', 'Markdown' or 'MarkdownV2'")
 
     method = "sendPhoto"
-    # url = "https://api.telegram.org/bot{bot_token}/sendPhoto".format(bot_token=bot_token)
     url = API_URL + method
     params = {"chat_id": channel_username, "caption": caption, "parse_mode": parse_mode}
     files = {"photo": photo}
@@ -19,3 +18,4 @@ def send_photo(channel_username: str, photo: bytes, caption: str, parse_mode: st
         logging.info("Photo sent to {channel}".format(channel=channel_username))
     else:
         logging.error(response.text)
+        
