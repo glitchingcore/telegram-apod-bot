@@ -6,7 +6,7 @@ See it in action on a Telegram channel: [@apod_nasapy](https://t.me/apod_nasapy)
 
 # Used technology
 
-- Python 3.10.6;
+- Python 3.10;
 - requests (to send Telegram API requests)
 - [nasapy](https://github.com/Snipy7374/nasa.py) (NASA API wrapper)
 - Docker
