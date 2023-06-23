@@ -11,6 +11,6 @@ def get_astronomy_picture():
     apod = json.loads(res)
     apod["is_image"] = apod["media_type"] == "image"
     if apod["is_image"]:
-        apod["image"] = requests.get(apod.url).content
+        apod["image"] = requests.get(apod["url"]).content
     logging.info("Fetching APOD successful.")
     return apod
