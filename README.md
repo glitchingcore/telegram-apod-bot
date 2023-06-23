@@ -7,7 +7,7 @@ See it in action on a Telegram channel: [@apod_nasapy](https://t.me/apod_nasapy)
 # Used technology
 
 - Python 3.10;
-- requests (to send Telegram API requests)
+- requests
 - Docker
 
 # Installation
