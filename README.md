@@ -2,7 +2,7 @@
 
 This is a simple Telegram Bot that sends the Astronomy Picture Of the Day to a Telegram channel every day.
 
-See it in action on a Telegram channel: [@apod_nasapy](https://t.me/apod_nasapy)
+See it in action on a Telegram channel: [@apod_py](https://t.me/apod_py)
 
 # Used technology
 
